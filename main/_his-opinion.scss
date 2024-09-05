@@ -1,0 +1,41 @@
+.cool {
+   background-color:  #ef6c58dd;
+}
+
+.his-opinion {
+
+    &__wrapper {
+        display: flex;
+        gap: 20px;
+        padding: 0 100px;
+        padding-top: 60px;
+    }
+    &__teks {
+        &__info {
+padding-top: 50px;
+font-size: 56px;
+font-weight: 800;
+line-height: 64px;
+letter-spacing: -1px;
+ color: $TEXT-LIGHT;
+
+        }
+   &__about {
+color: rgba(240, 248, 255, 0.792);
+font-size: 16px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+padding-top: 29px;
+padding-bottom: 34px;
+   }
+
+    }
+
+}
+
+.his {
+    background-color: #fff;
+    color: #391400;
+    border: none;
+}

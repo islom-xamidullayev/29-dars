@@ -1,0 +1,71 @@
+.portfolio-header__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+.portfolio-header {
+  &__card {
+    position: relative;
+    width: 100%;
+    & img {
+      display: block;
+    }
+    &__info {
+      position: absolute;
+      z-index: 5;
+      bottom: 7%;
+      left: 9%;
+
+      & p {
+        border: none;
+        text-align: center;
+        padding: 5px 13px;
+        border-radius: 70px;
+        background-color: #fff;
+        cursor: pointer;
+        margin-bottom: 20px;
+        transition: 1.2s ease;
+        line-height: 32px;
+      }
+      & p:hover {
+        background-color: inherit;
+        color: $TEXT-LIGHT;
+      }
+      & h4 {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 48px;
+        text-align: left;
+        color: $TEXT-LIGHT;
+        transition: 1.2s ease;
+        background-color: inherit;
+        cursor: pointer;
+      }
+      & h4:hover {
+        background-color: #fff;
+        color: black;
+        padding: 5px 13px;
+        border-radius: 30px;
+      }
+    }
+  }
+  .portfolio-bnt {
+    margin: auto;
+    display: block;
+    margin-top: 89px;
+    background-color: #fff;
+    color: #391400;
+   margin-bottom: 150px;
+font-weight: 900;
+line-height: 14.35px;
+text-align: center;
+ border: none;
+ transition: 1.2s ease;
+  }
+
+  .bnt:hover {
+    background-color: #ffa600a1;
+    color: #383636;
+    border: none;
+  }
+}
